@@ -1,0 +1,105 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #334e64;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, white, black);
+}
+
+
+
+.profile-container {
+  position: relative;
+  background-color: white;
+  width: 440px;
+  padding: 131px 29px 57px;
+  border-radius: 12px;
+  box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border: 5px solid blue;
+  border-radius: 50%;
+  box-shadow: 0 8px 55px blue;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-container img {
+  width: 100%;
+  max-width: 100%;
+  transform: scale(1.1);
+}
+
+.info {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.info i {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+.place {
+      margin-bottom: 84px;
+
+}
+
+.full-name {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: blue;
+}
+
+.posts-info {
+    
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  
+  text-align: center;
+}
+
+.posts-info span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+
+
+
