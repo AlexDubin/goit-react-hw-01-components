@@ -1,0 +1,45 @@
+.item {
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: flex;
+    
+    column-gap: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.status {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.status.online {
+  background-color: green;
+}
+
+.status.offline {
+  background-color: red;
+}
+
+.avatar{
+  width: 68px;
+  height: auto;
+}
+
+.name {
+  
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(57, 57, 57);
+}
+
+
